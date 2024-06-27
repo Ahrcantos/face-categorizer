@@ -1,0 +1,17 @@
+[package]
+name = "face-crawler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+base64 = "0.22.1"
+clap = { version = "4.5.7", features = ["derive"] }
+ndarray = "0.15.6"
+opencv = "0.92.0"
+qdrant-client = "1.9.0"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.118"
+tokio = { version = "1.38.0", features = ["full"] }
+uuid = { version = "1.9.1", features = ["v3"] }
+walkdir = "2.5.0"
